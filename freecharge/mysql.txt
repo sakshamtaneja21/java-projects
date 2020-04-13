@@ -1,0 +1,161 @@
+create table accno
+(accno varchar(20),
+rechargeamount varchar(30));
+
+Insert into accno
+values(431935123456,100);
+
+Insert into accno
+values(465646851235,50);
+
+Insert into accno
+values(458596547452,150); 
+
+
+
+
+
+create table mobile
+(phone no char(13) primary key,
+sim varchar(20),
+rs varchar(10));
+
+insert into mobile
+values('8955532321','Reliance',50);
+
+insert into mobile
+values('9782325235','Aircel',100);
+
+insert into mobile
+values('7610064396','Aircel',20);
+
+
+
+
+
+create table dth
+(operator varchar(20) primary key,
+dthno varchar(20),
+amount varchar(10));
+
+
+Insert into dth
+values('airtel',160045851256,500);
+
+
+Insert into dth
+values('tata sky',180045656798,550);
+
+Insert into dth
+values('dish tv',180054965496,999);
+
+
+
+
+
+
+create table acc1
+(name varchar(30) primary key,
+mobileno varchar(15),
+email varchar(40),
+password varchar(20));
+
+
+
+insert into acc1
+values('giriraj',9782325235,'girijat12@gmail.com','root');
+
+insert into acc1
+values('deepak',9458625452,'deepak@gmail.com','loot');
+
+insert into acc1
+values('pawan',9465321656,'pawan29@gmail.com','foot');
+
+insert into acc1
+values('yatharth',8955532321,'pittu@gmailabs.com','@123@456');
+
+
+
+
+
+create table code
+(codeno varchar(20) primary key);
+
+insert into code
+values('k10');
+
+insert into code
+values('y10');
+
+insert into code
+values('u10');
+
+
+
+
+
+
+create table debitcardnumber
+(debitcardnumber varchar(30) primary key);
+
+
+insert into debitcardnumber
+values('485632145698');
+
+insert into debitcardnumber
+values('478596132563');
+
+insert into debitcardnumber
+values('451263589632');
+
+
+
+
+
+create table creditcardno
+(creditcardno varchar(30) primary key);
+
+
+insert into creditcardno
+values('469693215465');
+
+insert into creditcardno
+values('498563211456');
+
+insert into creditcardno
+values('425632659842');
+
+
+
+
+
+
+create table dthdebitcardnumber
+(debitcardnumber varchar(30) primary key);
+
+
+insert into dthdebitcardnumber
+values('478596132563');
+
+insert into dthdebitcardnumber
+values('451263589632');
+
+insert into dthdebitcardnumber
+values('451263587485');
+
+
+
+
+
+create table dthcreditcardno
+(creditcardno varchar(30) primary key);
+
+
+insert into dthcreditcardno
+values('469693215465');
+
+insert into dthcreditcardno
+values('498563211456');
+
+insert into dthcreditcardno
+values('425632659842');
